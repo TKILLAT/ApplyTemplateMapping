@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ApplyTemplateMapping</Text>
+    <Description>Some description for ApplyTemplateMapping</Description>
+    <Assembly>ApplyTemplateMapping.dll</Assembly>
+    <FullClassName>ApplyTemplateMapping.Command</FullClassName>
+    <ClientId>47513816-37ec-4290-96eb-697caf7d43da</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ApplyTemplateMapping</Name>
+    <Assembly>ApplyTemplateMapping.dll</Assembly>
+    <FullClassName>ApplyTemplateMapping.App</FullClassName>
+    <ClientId>04b8a901-c0d8-4cc0-994e-daf78c34a3ab</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
